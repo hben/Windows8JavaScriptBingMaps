@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BingMap Test</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Bing Maps reference -->
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapicore.js"></script>
+
+    <!-- BingMapExample references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/mapService.js"></script>
+    <script src="/js/mockLocationService.js"></script>
+</head>
+<body>
+    <div class="mapPage">
+        <div class="header">
+            <!-- Segoe UI current location symbol -->
+            <button id="btnCurrent">&#xE1D2;</button>
+            <input id="txtSearch" type="text" />
+            <progress id="progressDiv"></progress>
+            <!-- Segoe UI search symbol -->
+            <button id="btnSearch">&#xE000;</button>
+        </div>
+        <div id="mapDiv"></div>
+    </div>
+</body>
+</html>
